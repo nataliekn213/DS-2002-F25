@@ -2,6 +2,10 @@ import csv
 import json
 import pandas as pd
 
+# script runs in its own direcotry
+import os
+os.chdir(os.path.dirname(__file__))
+
 # task 1
 data = [
     ["student_id", "major", "GPA", "is_cs_major", "credits_taken"],
