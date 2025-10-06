@@ -1,0 +1,6 @@
+student_id,major,GPA,is_cs_major,credits_taken
+1,CS,3.5,True,12.0
+2,APMA,3.0,False,15.5
+3,EE,2.8,False,13.0
+4,ME,3.2,False,20.0
+5,CS,2.8,True,28.0

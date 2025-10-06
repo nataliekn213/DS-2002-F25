@@ -1,0 +1,50 @@
+[
+  {
+    "course_id": "DS2002",
+    "section": "001",
+    "title": "Data Science Systems",
+    "level": 200,
+    "instructors": [
+      {
+        "name": "Austin Rivera",
+        "role": "Primary"
+      },
+      {
+        "name": "Heywood Williams-Tracy",
+        "role": "TA"
+      }
+    ]
+  },
+  {
+    "course_id": "CS4991",
+    "section": "001",
+    "title": "Capstone Technical Report",
+    "level": 400,
+    "instructors": [
+      {
+        "name": "Rosanne Vrugtman",
+        "role": "Primary"
+      },
+      {
+        "name": "Briana Morrison",
+        "role": "Technical Advisor"
+      },
+      {
+        "name": "Maggie Nunley",
+        "role": "Science and Engineering Research Librarian"
+      }
+    ]
+  },
+  {
+    "course_id": "STS4600",
+    "section": "001",
+    "title": "The Engineer, Ethics, and Professional Responsibility",
+    "level": 400,
+    "instructors": [
+      {
+        "name": "Peter Norton",
+        "role": "Primary"
+      }
+    ]
+  }
+]
