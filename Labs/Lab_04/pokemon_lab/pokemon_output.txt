@@ -31,3 +31,31 @@ Reporting Step: Generating summary...
 Total Portfolio Value: $5,690.04
 Most Valuable Card: Charizard (ID: base1-4) — $458.29
 Pipeline complete.
+
+--- Starting Portfolio Build Workflow ---
+Do you want to add a NEW card set? (yes/no)
+no
+Do you want to refresh ALL existing card sets? (yes/no)
+yes
+make[1]: Entering directory '/workspaces/DS-2002-F25/Labs/Lab_04/pokemon_lab'
+--- Refreshing All Card Sets ---
+Refreshing all card sets in card_set_lookup/...
+Updating set: base1...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  166k    0  166k    0     0   3509      0 --:--:--  0:00:48 --:--:-- 39968
+Data written to card_set_lookup/base1.json
+Updating set: base4...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  219k    0  219k    0     0  47289      0 --:--:--  0:00:04 --:--:-- 49398
+Data written to card_set_lookup/base4.json
+All card sets have been refreshed.
+make[1]: Leaving directory '/workspaces/DS-2002-F25/Labs/Lab_04/pokemon_lab'
+Starting production pipeline...
+ETL Step: Updating portfolio...
+Portfolio updated and written to 'card_portfolio.csv'.
+Reporting Step: Generating summary...
+Total Portfolio Value: $5,690.04
+Most Valuable Card: Charizard (ID: base1-4) — $458.29
+Pipeline complete.
